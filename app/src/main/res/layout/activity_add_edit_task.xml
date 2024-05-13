@@ -14,7 +14,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
-        android:hint="Enter Task Title"
+        android:hint="Title"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
 
@@ -30,7 +30,7 @@
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
         android:gravity="start|top"
-        android:hint="Enter Task Description"
+        android:hint="Description"
         android:inputType="textMultiLine"
         android:singleLine="false"
         android:textColor="@color/black"
@@ -47,7 +47,7 @@
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
         android:gravity="start|top"
-        android:hint="Enter Task Priority"
+        android:hint="Priority"
         android:textColor="@color/black"
         android:textColorHint="@color/black" />
 
@@ -62,9 +62,10 @@
         android:layout_marginEnd="15dp"
         android:layout_marginBottom="15dp"
         android:gravity="start|top"
-        android:hint="Enter Task Due Date"
-        aandroid:textColor="@color/black"
-        android:textColorHint="@color/black"" />
+        android:hint="Notes"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+         />
 
     <Button
         android:id="@+id/idBtnAddUpdate"
